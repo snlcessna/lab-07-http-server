@@ -1,0 +1,21 @@
+{
+  "name": "lab-07_Kelati-Larry-David",
+  "version": "1.0.0",
+  "description": "Standard Package File for Labs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "eslint": "eslint --fix **/lib && eslint --fix index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "superagent": "^3.6.3"
+  }
+}
