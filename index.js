@@ -1,3 +1,7 @@
 'use strict';
 
-// david setup index.js. use index to start server
+const server = require('./lib.server.js');
+
+require('dotenv').config();
+
+server.start(process.env.PORT | 5000);

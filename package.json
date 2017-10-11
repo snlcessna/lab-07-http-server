@@ -17,5 +17,8 @@
     "expect": "^21.2.1",
     "mocha": "^4.0.1",
     "superagent": "^3.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0"
   }
 }
