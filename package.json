@@ -19,6 +19,7 @@
     "superagent": "^3.6.3"
   },
   "dependencies": {
+    "cowsay": "^1.2.1",
     "dotenv": "^4.0.0"
   }
 }
