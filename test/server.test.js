@@ -39,6 +39,22 @@ describe('Testing HTTP Server', () => {
     });
 
     //POST
-    it('should ')
+    it('should ', (done) => {
+
+    });
+
+    //POST Bad JSON
+    it('should ', (done) => {
+        
+    });
+
+    //404
+    it('should give 404 message because of url not existing', (done) => {
+        request.get(`${host}/notaurl`).end((err, res) => {
+            expect(err).toBe(null);
+            expect(res.text).toEqual();
+            done();
+        });
+    });
 
 });
