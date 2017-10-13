@@ -72,7 +72,7 @@ describe('Testing HTTP Server', () => {
     // //404
     it('should give a message saying we cannot find page', (done) => {
         request.get(`${host}/notaurl`).end((err, res) => {
-            console.log('res: ',res.text);
+
             expect(res.text).toEqual('could not find page');
             done();
         });
